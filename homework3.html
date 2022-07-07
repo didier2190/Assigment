@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            *{
+                margin:0; padding:0;
+            }
+            .wrapper{
+                display: flex;
+            }
+            .wrapper .left,
+            .wrapper .right{
+                width: 50%;
+                height: 100vh;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+            }
+            .wrapper .left{
+                background-color: rgb(223, 225, 229);
+            }
+            .wrapper .image{
+                object-fit:cover;
+            }
+            .logo{
+                width: 100%;
+    max-width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="left">
+                <img class="logo" src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="">
+                <form action="">
+                    <input type="email" placeholder="Email" class="" >
+                </form>
+            </div>
+            <div class="right">
+                <img class="image" src="https://d3rplhd9p4snt0.cloudfront.net/images/login/bg/bg17.jpg" alt="">
+             
+            </div>
+        </div>
+   
+    </body>
+</html>
